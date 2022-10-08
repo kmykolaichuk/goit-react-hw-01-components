@@ -3,8 +3,9 @@ import styled from 'styled-components';
 export const ProfileCard = styled.div`
   width: 280px;
   margin: 0 auto;
+  margin-top: 40px;
   border-radius: 6px;
-  border-top: 1px solid #e1e1e1;
+  border: 1px solid #e1e1e1;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2), 0px 2px 2px rgba(0, 0, 0, 0.2),
     0px 2px 2px rgba(0, 0, 0, 0.2);
 `;

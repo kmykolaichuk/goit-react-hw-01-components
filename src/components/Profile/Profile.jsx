@@ -10,7 +10,7 @@ import {
   StatsList,
   LabelSpan,
   QuantitySpan,
-} from './Profile.styled.js';
+} from './Profile.styled';
 
 export const Profile = ({ username, tag, location, avatar, stats }) => {
   return (
