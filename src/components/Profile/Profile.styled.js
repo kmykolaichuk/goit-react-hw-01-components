@@ -61,8 +61,8 @@ export const StatsList = styled.ul`
     padding-top: 16px;
     padding-bottom: 16px;
     width: calc((100% - 9px) / 3);
-    :not(:first-child) {
-      border-left: 1px solid #e1e1e1;
+    :not(:last-child) {
+      border-right: 1px solid #e1e1e1;
     }
   }
 `;

@@ -23,14 +23,15 @@ export const StatList = styled.ul`
   justify-content: center;
   margin: 0 auto;
   border-radius: 4px;
-  background-color: #768a81;
+  background-color: #afb3b3;
 `;
 
 export const StatListItem = styled.li`
   width: 80px;
   text-align: center;
-  :not(:first-child) {
-      border-left: 1px solid #646e69;
+  :not(:last-child) {
+    border-right: 1px solid #919494;
+  }
 `;
 
 export const LabelSpan = styled.span`
